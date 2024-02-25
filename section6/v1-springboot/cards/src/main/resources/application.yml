@@ -14,3 +14,22 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+config:
+  import:
+    - "application-qa.yml"
+    - "application-prod.yml"
+  profiles:
+    active:
+      - "qa"
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to MyBank cards related to local APIs"
+  contactDetails:
+    name: "Jammy - Developer"
+    email: "jammy@gmail.com"
+  onCallSupport:
+    -(020) 4545-8787
+    -(020) 5454-3311

@@ -14,5 +14,23 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "prod"
+
+
 build:
   version: "3.0"
+
+accounts:
+  message: "Welcome to MyBank accounts related local APIs"
+  contactDetails:
+    name: "Rudra - Developer"
+    email: "rudra@gmail.com"
+  onCallSupport:
+    - (040) 4455-5577
+    - (040) 4123-5987
