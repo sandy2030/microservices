@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to MyBank accounts related PROD APIs"
+  contactDetails:
+    name: "Iera - Solution Architect"
+    email: "iera@gmail.com"
+  onCallSupport:
+    - (022) 5223-7855
+    - (022) 5224-9876

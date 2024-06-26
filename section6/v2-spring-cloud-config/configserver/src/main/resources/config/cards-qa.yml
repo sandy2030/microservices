@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to MyBank cards related to QA APIs"
+  contactDetails:
+    name: "Sandy"
+    email: "sandy@gmail.com"
+  onCallSupport:
+    -(080) 8877-1221
+    -(080) 8825-7887
