@@ -20,6 +20,7 @@ repositories {
 
 ext {
 	set('springCloudVersion', "2023.0.2")
+	set('artifactId', "configserver")
 }
 
 dependencies {
@@ -39,7 +40,7 @@ dependencyManagement {
 
 jib {
 	to {
-		image = 'sandipnew/${project.artifactId}' // Target image
+		image = "sandipnew/${project.ext.artifactId}" // Target image
 		tags = ['s6']
 	}
 }
