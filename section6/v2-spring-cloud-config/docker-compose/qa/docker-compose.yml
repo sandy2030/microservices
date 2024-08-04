@@ -35,7 +35,7 @@ services:
           memory: 700m
     environment:
       SPRING_RABBITMQ_HOST: "rabbit"
-      SPRING_PROFILES_ACTIVE: default
+      SPRING_PROFILES_ACTIVE: qa
     networks:
       - mybank
 
@@ -57,7 +57,7 @@ services:
     environment:
       SPRING_APPLICATION_NAME: accounts
       SPRING_CONFIG_IMPORT: "configserver:http://configserver:8071/"
-      SPRING_PROFILES_ACTIVE: default
+      SPRING_PROFILES_ACTIVE: qa
 
 
   loans:
@@ -77,7 +77,7 @@ services:
     environment:
       SPRING_APPLICATION_NAME: loans
       SPRING_CONFIG_IMPORT: "configserver:http://configserver:8071/"
-      SPRING_PROFILES_ACTIVE: default
+      SPRING_PROFILES_ACTIVE: qa
 
 
   cards:
@@ -97,7 +97,7 @@ services:
     environment:
       SPRING_APPLICATION_NAME: cards
       SPRING_CONFIG_IMPORT: "configserver:http://configserver:8071/"
-      SPRING_PROFILES_ACTIVE: default
+      SPRING_PROFILES_ACTIVE: qa
 networks:
   mybank:
     driver: "bridge"
