@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to MyBank loans related qa APIs"
+  contactDetails:
+    name: "somi"
+    email: "somi@gmail.com"
+  onCallSupport:
+    -(07653) 7809-1232
+    -(07653) 7650-2781

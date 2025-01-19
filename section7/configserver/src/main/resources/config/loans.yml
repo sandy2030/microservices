@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to MyBank loans related to local APIs"
+  contactDetails:
+    name: "Krishna - Developer"
+    email: "krishna@gmail.com"
+  onCallSupport:
+    -(011) 2120-2777
+    -(011) 2205-5644
