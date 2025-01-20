@@ -1,7 +1,7 @@
 services:
   network-deploy-service:
-  networks:
-    - mybank
+    networks:
+      - mybank
 
   microservice-db-config:
     extends:
@@ -19,7 +19,7 @@ services:
   microservice-base-config:
     extends:
       service: network-deploy-service
-      deploy:
+    deploy:
       resources:
         limits:
           memory: 700m
