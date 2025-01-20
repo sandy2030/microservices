@@ -2,10 +2,10 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to MyBank accounts related local APIs"
+  message: "Welcome to EazyBank accounts related local APIs "
   contactDetails:
-    name: "Rudra - Developer"
-    email: "rudra@gmail.com"
+    name: "John Doe - Developer"
+    email: "john@eazybank.com"
   onCallSupport:
-    - (040) 4455-5577
-    - (040) 4123-5987
+    - (555) 555-1234
+    - (555) 523-1345

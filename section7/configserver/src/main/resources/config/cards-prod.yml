@@ -2,10 +2,10 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to MyBank cards related to Prod APIs"
+  message: "Welcome to EazyBank cards related prod APIs "
   contactDetails:
-    name: "Adi"
-    email: "adi@gmail.com"
+    name: "Sandra Harald - Product Owner"
+    email: "sandra@eazybank.com"
   onCallSupport:
-    -(0771) 5655-3434
-    -(0771) 7843-0912
+    - (617) 432-2356
+    - (936) 564-8721

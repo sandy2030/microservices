@@ -7,19 +7,31 @@ import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;
 
-@Data@AllArgsConstructor
+@Data @AllArgsConstructor
 @Schema(
-        name = "Error Response",
-        description = "Schema to hold failed response information"
+        name = "ErrorResponse",
+        description = "Schema to hold error response information"
 )
 public class ErrorResponseDto {
-    // endpoint
-    @Schema(description = "api path of service")
-    private String apiPath;
-    @Schema(description = "error code in response")
+
+    @Schema(
+            description = "API path invoked by client"
+    )
+    private  String apiPath;
+
+    @Schema(
+            description = "Error code representing the error happened"
+    )
     private HttpStatus errorCode;
-    @Schema(description = "error message  in response")
-    private String errorMessage;
-    @Schema(description = "date and time of error")
+
+    @Schema(
+            description = "Error message representing the error happened"
+    )
+    private  String errorMessage;
+
+    @Schema(
+            description = "Time representing when the error happened"
+    )
     private LocalDateTime errorTime;
+
 }

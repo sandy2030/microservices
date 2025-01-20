@@ -2,10 +2,10 @@ build:
   version: "3.0"
 
 cards:
-  message: "Welcome to MyBank cards related to local APIs"
+  message: "Welcome to EazyBank cards related local APIs "
   contactDetails:
-    name: "Jammy - Developer"
-    email: "jammy@gmail.com"
+    name: "Dragos Lech - Developer"
+    email: "dragos@eazybank.com"
   onCallSupport:
-    -(020) 4545-8787
-    -(020) 5454-3311
+    - (412) 419-3491
+    - (915) 382-1932

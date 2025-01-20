@@ -5,10 +5,10 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;
-import lombok.Data;
+import lombok.*;
 
 @Schema(name = "Cards",
-        description = "Schema to hold card information"
+        description = "Schema to hold Card information"
 )
 @Data
 public class CardsDto {
