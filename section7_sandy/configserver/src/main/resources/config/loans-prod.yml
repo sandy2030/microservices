@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to MyBank loans related to Prod APIs"
+  contactDetails:
+    name: "Princu"
+    email: "princu@gmail.com"
+  onCallSupport:
+    -(0771) 5655-3434
+    -(0771) 7843-0912
