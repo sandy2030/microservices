@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to MyBank accounts related QA APIs"
+  contactDetails:
+    name: "Rudra - QA Lead"
+    email: "rudra@gmail.com"
+  onCallSupport:
+    - (011) 2323-6523
+    - (011) 4323-9082

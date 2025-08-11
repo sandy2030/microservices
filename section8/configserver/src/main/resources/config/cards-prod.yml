@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to MyBank cards related to Prod APIs"
+  contactDetails:
+    name: "Adi"
+    email: "adi@gmail.com"
+  onCallSupport:
+    -(0771) 5655-3434
+    -(0771) 7843-0912
