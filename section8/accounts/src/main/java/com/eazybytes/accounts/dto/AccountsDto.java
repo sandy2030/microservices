@@ -1,25 +1,33 @@
 package com.eazybytes.accounts.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.persistence.Column;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
 import lombok.Data;
 
+@Data
 @Schema(
         name = "Accounts",
-        description = "Schema to hold account information"
+        description = "Schema to hold Account information"
 )
-@Data
 public class AccountsDto {
-    @Schema(description = "account number")
+
     @NotEmpty(message = "AccountNumber can not be a null or empty")
-    @Pattern(regexp = "(^$|[0-9]{10})",message = "accountNumber must be of 10 digits")
+    @Pattern(regexp="(^$|[0-9]{10})",message = "AccountNumber must be 10 digits")
+    @Schema(
+            description = "Account Number of Eazy Bank account", example = "3454433243"
+    )
     private Long accountNumber;
-    @Schema(description = "account type information", example = "savings")
-    @NotEmpty(message = "accountType can not be null or empty")
+
+    @NotEmpty(message = "AccountType can not be a null or empty")
+    @Schema(
+            description = "Account type of Eazy Bank account", example = "Savings"
+    )
     private String accountType;
-    @Schema(description = "branch address of MyBank")
-    @NotEmpty(message = "branchAddress can not be null or empty")
+
+    @NotEmpty(message = "BranchAddress can not be a null or empty")
+    @Schema(
+            description = "Eazy Bank branch address", example = "123 NewYork"
+    )
     private String branchAddress;
 }

@@ -2,10 +2,10 @@ build:
   version: "3.0"
 
 loans:
-  message: "Welcome to MyBank loans related to local APIs"
+  message: "Welcome to EazyBank loans related local APIs "
   contactDetails:
-    name: "Krishna - Developer"
-    email: "krishna@gmail.com"
+    name: "Amaal Grega - Developer"
+    email: "amaal@eazybank.com"
   onCallSupport:
-    -(011) 2120-2777
-    -(011) 2205-5644
+    - (452) 456-2176
+    - (546) 764-8934
